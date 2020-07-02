@@ -9,10 +9,10 @@
     <meta name="csrf-token" content="<%= authenticity_token %>" />
     <link rel="icon" href="<%= assetPath("images/favicon.ico") %>">
   </head>
-  <body>
+  <body style="background-color:#f3f3f3; height:100vh;">
 
-    <div class="container">
-      <%= partial("flash.html") %>
+    <div class="container h-100">
+      <!-- <%= partial("flash.html") %> -->
       <%= yield %>
     </div>
 
